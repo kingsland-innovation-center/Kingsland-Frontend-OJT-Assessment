@@ -11,8 +11,11 @@ import Button from 'react-bootstrap/Button';
  *  firstName: string,
  *  lastName: string,
  *  email: string,
- *  program: string
+ *  course: string
  * }
+ * 
+ * When the form is saved, send your payload to the following endpoint:
+ * POST https://api-demo.kingslandtesting.com/student
  */
 const AddStudent = () => {
   return (
@@ -31,8 +34,8 @@ const AddStudent = () => {
           </Form.Group>
 
           <Form.Group className='mb-3' controlId='formProgram'>
-            <Form.Label>Program</Form.Label>
-            <Form.Control type='text' placeholder='Enter Program' />
+            <Form.Label>Course</Form.Label>
+            <Form.Control type='text' placeholder='Enter Course' />
           </Form.Group>
 
           <Form.Group className='mb-3' controlId='formEmail'>

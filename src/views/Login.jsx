@@ -9,11 +9,8 @@ import Button from 'react-bootstrap/Button';
  * Given a username and password, check the database for a match.
  * If a match is found, log the user in.
  * 
- * For this assessment, tokenizing the username and password is not required.
- * You may simulate the response for correct/incorrect logins such as:
- * {
- *  isUserValid: boolean
- * }
+ * Use the following endpoint to check for a username and password match:
+ * POST https://api-demo.kingslandtesting.com/user/login
  * 
  * Then, redirect appropriately to /dashboard and adjust the sidebar menuitems accordingly.
  */

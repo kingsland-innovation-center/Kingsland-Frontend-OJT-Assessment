@@ -16,7 +16,8 @@ import Col from 'react-bootstrap/Col';
  *  password: string,
  * }
  * 
- * Make sure to observe good password storage practices (eg. hashing).
+ * When the form is saved, send your payload to the following endpoint:
+ * POST https://api-demo.kingslandtesting.com/user/register
  */
 const Register = () => {
   return (

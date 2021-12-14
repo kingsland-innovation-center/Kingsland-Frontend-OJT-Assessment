@@ -12,6 +12,9 @@ import Table from 'react-bootstrap/Table';
  *  email: string,
  *  program: string
  * }]
+ * 
+ * Replace the hardcoded data with the data from the following endpoint:
+ * GET https://api-demo.kingslandtesting.com/student/
  */
 const Students = () => {
   return (
@@ -22,7 +25,7 @@ const Students = () => {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Program</th>
+              <th>Course</th>
               <th>Email</th>
             </tr>
           </thead>
