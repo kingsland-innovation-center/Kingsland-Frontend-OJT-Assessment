@@ -44,6 +44,62 @@
 .white-wrap {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: white;
-  border-radius:24px;
-  padding:2rem
+  border-radius: 24px;
+  padding: 2rem;
+}
+
+.sidebar-wrap {
+  background-color: white;
+  padding: 3rem 1.25rem;
+  width: 200px;
+  height: 100vh;
+  position: relative;
+  transition: margin 0.25s ease-out;
+  border-right: 2px solid rgb(233, 233, 233);
+}
+
+.sidebar-toggled {
+  margin-left: -600px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.placeholder-photo {
+  width: 40px;
+  height: 40px;
+  background: lightgray;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 15px;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  z-index: 1;
+}
+
+.dropdown-wrap {
+  margin: 5px 0 30px 8px;
+}
+
+.dropdown {
+  background-color: white;
+  position: relative;
+}
+
+.close-dropdown {
+  margin-top: -500px;
+}
+
+.arrow-down {
+  margin-left: 50px;
+  color: gray;
 }
